@@ -15,7 +15,35 @@ h1 {
     color: #fff;
 }
 
+h2 {
+    font: 700 28px/1.2 Roboto, sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 60px 20px 40px 20px;
+}
+
+h3 {
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+p {
+    padding: 10px 20px 0px 20px;
+}
+
+.centre {
+    display: block;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
 /*HEADER*/
+
+/*DESKTOP*/
 
 header {
     min-height: 100px;
@@ -43,7 +71,7 @@ header {
     text-align: center;
 }
 
-.topnav a{
+.topnav a {
     text-transform: uppercase;
     color: #fff;
     font-size: 21px;
@@ -69,6 +97,24 @@ header {
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
 
+/*RESPONSIVE*/
+
+@media only screen and (max-width:975px) {
+    header {
+        min-height: 150px;
+    }
+    .topnav {
+        margin: 0;
+        text-align: center;
+    }
+    .topnav a {
+        display: block;
+        width: 150px;
+        margin: auto;
+        padding: 10px !important;
+    }
+}
+
 /*HOME HERO*/
 
 .home-hero {
@@ -85,10 +131,116 @@ header {
     color: #fff;
 }
 
-#sitar {
-    display: block;
+/*MAIN*/
+
+/*THE MIND*/
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 1200px;
+}
+
+#text {
+    z-index: 1;
+}
+
+#text p {
+    font-weight: 400;
+}
+
+.white {
+    color: white;
+    font-weight: 600 !important;
+}
+
+#pictures {
+    margin-top: -150px;
+}
+
+.column-3 {
+    width: 33%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/*THE SOUL*/
+
+.container-b {
+    position: relative;
+    display: flex;
+    justify-content: center;
     margin: auto;
 }
 
-/*testing*/
+blockquote {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 20px 40px 20px;
+}
 
+.quote-attr {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.column-2 {
+    width: 50%;
+}
+
+img#sitar-1 {
+    display: block;
+    margin-left: auto;
+}
+
+#sitar-3-conatiner {
+    margin-top: -10px;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-image: linear-gradient(125deg, #660000, #660000, rgba(153, 26, 43, 0.81), #660000);
+    margin-top: 100px;
+}
+
+form {
+    margin: 80px 20px;
+    padding-top: 80px;
+}
+
+.container-c {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 500px;
+}
+
+.container-d {
+    position: relative;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+label {
+    color: #fff;
+}
+
+input {
+    width: 90%;
+}
+
+#email, textarea {
+    width: 100%;
+}
+
+#submit {
+    width: 100%;
+}
