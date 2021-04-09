@@ -92,16 +92,3 @@ header {
 
 /*testing*/
 
-.column {
-    float: left;
-    width: 20%;
-}
-
-#header-b {
-    width: 60%;
-}
-
-#header-c {
-    width: 20%;
-}
-
