@@ -61,6 +61,7 @@ header {
 }
 
 #mugshot {
+    display: block;
     border-radius: 100px;
     width: 100px;
     height: 100px;
@@ -84,24 +85,36 @@ header {
 }
 
 .button-a {
-    background-color: #fff;
+    float: right;
+    background-color: #ffd30f;
     margin: 35px 0;
-    font-weight: 500;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.2px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
     padding: 8px 24px;
 }
 
 .button-a:hover {
-    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    background-color: #ffdf52;
 }
 
 /*RESPONSIVE*/
 
-@media only screen and (max-width:975px) {
+@media only screen and (max-width:1030px) {
     header {
         min-height: 150px;
+    }
+    .column {
+        width: 30%;
+    }
+    #header-b {
+        width: 40%;
+    }
+    #mugshot {
+        margin-top: 25px;
     }
     .topnav {
         margin: 0;
@@ -111,11 +124,45 @@ header {
         display: block;
         width: 150px;
         margin: auto;
-        padding: 10px !important;
+        padding: 10px;
+    }
+    .button-a {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    header {
+        min-height: 280px;
+    }
+    .column {
+        width: 100%;
+    }
+    #header-b {
+        width: 100%;
+    }
+    #mugshot {
+        margin-top: 20px;
+        margin: auto;
+    }
+    .topnav {
+        margin-top: 10px;
+    }
+    .topnav a {
+        font-size: 16px;
+        padding: 5px;
+    }
+    .button-a {
+        display: block;
+        margin: auto;
+        margin-top: 15px;
+        float: none;
     }
 }
 
 /*HOME HERO*/
+
+/*DESKTOP*/
 
 .home-hero {
     min-height: calc(100vh - 100px);
@@ -130,6 +177,35 @@ header {
     font-weight: 400;
     color: #fff;
 }
+
+/*RESPONSIVE*/
+
+@media only screen and (max-width:1030px) {
+    .home-hero {
+        min-height: calc(100vh - 150px);
+    }
+    h1 {
+        margin-top: 200px;
+        font-size: 28px;
+    }
+    .intro {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .home-hero {
+        min-height: calc(100vh - 280px);
+    }
+    h1 {
+        margin-top: 100px;
+    }
+    .intro {
+        font-size: 1.1em;
+    }
+}
+
+
 
 /*MAIN*/
 
@@ -165,6 +241,10 @@ header {
     max-width: 600px;
     text-align: center;
 }
+
+/*RESPONSIVE*/
+
+
 
 /*THE SOUL*/
 
@@ -230,17 +310,24 @@ form {
 }
 
 label {
+    width: 100%;
     color: #fff;
 }
 
 input {
-    width: 90%;
+    width: 97%;
+}
+
+#fname-column {
+    padding-right: 15px;
 }
 
 #email, textarea {
     width: 100%;
+    margin-top: -20px;
 }
 
 #submit {
     width: 100%;
+    margin: 0;
 }

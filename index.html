@@ -22,7 +22,7 @@
                 </nav>
             </div>
             <div class="column">
-                <button class="button-a" href="#feelinglucky">Feeling Lucky?</button>
+                <button class="button-a" onclick="window.location.href='#feelinglucky';">Feeling Lucky?</button>
             </div>
         </header>
         <main>
@@ -33,8 +33,9 @@
                     He is still an up-and-coming King of all things cerebral. Explore the page below to immerse yourself in Gurmukh's <strong>mind, body and soul.</strong></p>
                 <img src="media/sitar.png" alt="Sitar Instrument" class="centre">
             </div>
+            <a name="themind"></a>
             <h2>The Mind:<span style="font-size: 0.9em; font-weight: 300;"><em> a healing phenomenon</em></span></h2>
-            <div class="container" id="text">
+            <div class="container desktop-only" id="text">
                 <div class="column-3">
                     <h3>The Problem Solver</h3>
                     <p>Gurmukh has experience solving a variety of clinical and non-clinical problems posed by patients in both emergency and non-emergent settings, with consideration of human factors and error minimisation.</p>
@@ -48,7 +49,7 @@
                 <p>Gurmukh has delivered medical presentations, both to an audience and smaller groups around the UK and abroad. He has organised and taught on medical courses and delivered formal and informal teaching sessions to medical students, colleagues, and trainee doctors.</p>
                 </div>
             </div>
-            <div class="container" id="pictures">
+            <div class="container desktop-only" id="pictures">
                 <div class="column-3">
                     <img src="media/rubix_cube.jpg" alt="rubix cube" class="centre">
                 </div>
@@ -64,8 +65,10 @@
                 <h3>The Medical Messiah</h3>
                 <p>Gurmukh has taken and passed several difficult post-graduate medical exams which span several scientific domains. He holds several certifications for providing advanced care and has taught cardiac and lung ultrasound on several courses.</p>
             </div>
+            <a name="thebody"></a>
             <h2>The Body:<span style="font-size: 0.9em; font-weight: 300;"><em> a hench mofo</em></span></h2>
             <img src="media/morph.jpg" alt="arnold schwarnegger body with Gurmukh's face" class="centre">
+            <a name="thesoul"></a>
             <h2>The Soul:<span style="font-size: 0.9em; font-weight: 300;"><em> a magician musician</em></span></h2>
             <blockquote cite="https://www.wvi.org/article/%E2%80%9Cmusic-gives-soul-universe-and-wings-mind%E2%80%9D">"<em>Music is a moral law. It gives soul to the universe, wings to the mind, flight to the imagination, and charm and gaiety to life and to everything"</em>
                 <p class="quote-attr">Plato</p>
@@ -82,35 +85,34 @@
                     <img src="media/sitar-3.JPG" alt="Gurmukh holding Sitar tenderly" class="centre">
             </div>
             <footer>
-                    <form action="" id="contact_form">
-                        <div class="container-c">
-                            <div class="column-2">
-                                <label for="fname">First Name</label><br>
-                                <input type="text" id="fname" name="fname">
-                            </div>
-                            <div class="column-2">
-                                <label for="lname">Last name</label><br>
-                                <input type="text" id="lname" name="lname">
-                            </div>
+                <a name="feelinglucky"></a>
+                <form action="" id="contact_form">
+                    <div class="container-c">
+                        <div class="column-2" id="fname-column">
+                            <label for="fname">First Name</label><br>
+                            <input type="text" id="fname" name="fname">
                         </div>
-                        <div class="container-d">
-                            <div>
-                                <label for="email">Email</label><br>
-                                <input type="email" id="email" name="email"><br>
-                            </div>
+                        <div class="column-2">
+                            <label for="lname">Last name</label><br>
+                            <input type="text" id="lname" name="lname">
                         </div>
-                        <div class="container-d">
-                            <div>
-                                <label for="Message">Message</label><br>
-                                <textarea rows="4" name="Message" form="contact_form"></textarea>
-                            </div>
-                        </div>
-                        <div class="container-d">
-                            <div>
-                                <input type="submit" value="Submit" id="submit">
-                            </div>
-                        </div>
-                    </form>
+                    </div>
+                    <div class="container-d">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="container-d">
+                            <input type="email" id="email" name="email">
+                    </div>
+                    <div class="container-d">
+                            <label for="Message">Message</label>
+                    </div>
+                    <div class="container-d">
+                        <textarea rows="4" name="Message" form="contact_form"></textarea>
+                    </div>
+                    <div class="container-d">
+                            <input type="submit" value="Submit" class="button-a" id="submit">
+                    </div>
+                </form>
                 <div class="container-b"> 
                     <p class="white">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Pillroy</p>
                 </div>
