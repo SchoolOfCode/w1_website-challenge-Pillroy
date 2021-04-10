@@ -24,15 +24,15 @@ This project will span the first two weeks of the bootcamp, and you will be give
 
 ## Learning Summary
 
-Below is a summary of learning thus far, broken into sections: HTML, CSS and the web.
+Below is a summary of learning thus far, broken into sections: HTML and CSS.
 
 ### HTML
 
-HTML, or _Hypertext Markup Language_, is the language used to code the **structure** of a website. Broadly speaking, a HTML webpage is split into two sections: <head> and <body>.
+HTML, or _Hypertext Markup Language_, is the language used to code the **structure** of a website. Broadly speaking, a HTML webpage is split into two sections: &lt;head&gt; and &lt;body&gt;.
 
-#### The <head> tag
+#### The &lt;head&gt; tag
 
-The <head> tag contains information that lays the groundwork for the webpage; information vital for web browsers to run the webpage as the developer intends. Information specified in the <head> tag includes, but is not limited to,:
+The &lt;head&gt; tag contains information that lays the groundwork for the webpage; information vital for web browsers to run the webpage as the developer intends. Information specified in the &lt;head&gt; tag includes, but is not limited to,:
 
 * page <title>
 * meta data, including:
@@ -41,15 +41,13 @@ The <head> tag contains information that lays the groundwork for the webpage; in
     * author name
 * links to sister sheets, such as .css and .js files.
 
-#### The &lt;body&lt; tag
+#### The &lt;body&gt; tag
 
-The &lt;body&lt; tag contains the page content; i.e. what the user will see when using a webpage. Remember, only structural elements are built here (styling and interactivity are typically dealt with in the sister files). Website structure follows several best practice principles, both to maximise effectiveness of web crawlers understanding the webspage for search indexing, and to make the site as intuitive as it can be to the user. As such, webpages typically follow the following structural order:
+The &lt;body&gt; tag contains the page content; i.e. what the user will see when using a webpage. Remember, only structural elements are built here (styling and interactivity are typically dealt with in the sister files). Website structure follows several best practice principles, both to maximise effectiveness of web crawlers understanding the webspage for search indexing, and to make the site as intuitive as it can be to the user. As such, webpages typically follow the following structural order:
 
-1. <header>
-    * can include brand logo, navigation links, call-to-actions (e.g. click-to-call button).
-2. <main>  includes content befitting main prupose of the page, keeping in mind what the user(s) expect and want from the webpage.
-3. <footer>
-    * often includes contact information, links to legal documents, sign-up forms etc. Should include options for continued user flow.
+1. &lt;header&gt; - can include brand logo, navigation links, call-to-actions (e.g. click-to-call button).
+2. &lt;main&gt; - includes content befitting main prupose of the page, keeping in mind what the user(s) expect and want from the webpage.
+3. &lt;footer&gt; - often includes contact information, links to legal documents, sign-up forms etc. Should include options for continued user flow.
 
 ### CSS
 
@@ -66,6 +64,9 @@ The syntax goes as follows:
 [selector] {
     [property]: [value];
 }
+
+
+## Website Project Summary
 
 
 
