@@ -41,14 +41,13 @@ The <head> tag contains information that lays the groundwork for the webpage; in
     * author name
 * links to sister sheets, such as .css and .js files.
 
-#### The <body> tag
+#### The &lt;body&lt; tag
 
-The <body> tag contains the page content; i.e. what the user will see when using a webpage. Remember, only structural elements are built here (styling and interactivity are typically dealt with in the sister files). Website structure follows several best practice principles, both to maximise effectiveness of web crawlers understanding the webspage for search indexing, and to make the site as intuitive as it can be to the user. As such, webpages typically follow the following structural order:
+The &lt;body&lt; tag contains the page content; i.e. what the user will see when using a webpage. Remember, only structural elements are built here (styling and interactivity are typically dealt with in the sister files). Website structure follows several best practice principles, both to maximise effectiveness of web crawlers understanding the webspage for search indexing, and to make the site as intuitive as it can be to the user. As such, webpages typically follow the following structural order:
 
 1. <header>
     * can include brand logo, navigation links, call-to-actions (e.g. click-to-call button).
-2. <main>
-    * includes content befitting main prupose of the page, keeping in mind what the user(s) expect and want from the webpage.
+2. <main>  includes content befitting main prupose of the page, keeping in mind what the user(s) expect and want from the webpage.
 3. <footer>
     * often includes contact information, links to legal documents, sign-up forms etc. Should include options for continued user flow.
 
