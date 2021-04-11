@@ -68,5 +68,23 @@ The syntax goes as follows:
 
 ## Website Project Summary
 
+To get going, Gurmukh and I sent each other our CV's. We felt this was a quick way to get across our formal education/work backgrounds.We also took inspiration from what we'd chatted about on Zoom.
 
+From his CV, I saw he played Sitar (Indian String Instrument), and took part in several live performances. I thought this was cool, and decided to make this a centre stage of the website.
+
+Following some pictures sent by Gurmukh, I began to write the HTML, thinking about how to compartmentalise the site into coherent parts. I decided to go with a 'Mind, Body & Soul' theme, given his mind had achieved much in academia and healthcare, his soul was expressed via his musicianship, and his body, well that was a tough one to work out (as evident on the webpage).
+
+My existing understanding of the way HTML is written, and how it can be nested, meant I mainly needed to research and learn some of the tags, flexbox, how the form element works and is written, and the javascript to pull in the current year.
+
+My directive was to build a profile site for Gurmukh, so I wanted to encompass different qualities of his, whilst singing his praises through all the content. And I wanted to make it funny.
+
+We reviewed each other's progress after a week, and gave each other clear 'client feedback', including what we liked, disliked, requests for changes/additions, and suggestions. This is the point I got permission to whack Gurmukh's face on an Arnie body from his hencher days.
+
+We also used our meeting to review each other's code, from which we were able to give each other ideas for code structure and pointers to CSS properties.
+
+Following the feedback, I needed to make the website responsive, with specific reference to the navigation menu in the header. I considered making it a dropdown on mobile, but the solutions I found used javascript (as yet, unlearned!) So, instead I solved the problem using CSS as so the menu stacks orderly on mobile.
+
+If I was to built it again, I would look to use flexbox to position the header, as so to ensure the header section is adaptable to it's child elements (lost when using _float_).
+
+Overall, I'm happy with the end product, and look forward to utilising javascript in future sites.
 
