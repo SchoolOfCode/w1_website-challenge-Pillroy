@@ -1,0 +1,347 @@
+/*SITE_WIDE*/
+
+body {
+    font: 300 14px/1.5 Montserrat, Helvetica, sans-serif;
+    letter-spacing: 0.4px;
+    margin: 0;
+}
+
+h1 {
+    font: 700 32px/1.2 Roboto, sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 350px;
+    color: #fff;
+}
+
+h2 {
+    font: 700 28px/1.2 Roboto, sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 60px 20px 40px 20px;
+}
+
+h3 {
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+p {
+    padding: 10px 20px 0px 20px;
+}
+
+.centre {
+    display: block;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*HEADER*/
+
+/*DESKTOP*/
+
+header {
+    min-height: 100px;
+    padding: 10px 40px;
+    background-image: linear-gradient(125deg, #660000, rgba(153, 26, 43, 0.81));
+}
+
+.column {
+    float: left;
+    width: 20%;
+}
+
+#header-b {
+    width: 60%;
+}
+
+#mugshot {
+    display: block;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.topnav {
+    margin: 35px 0;
+    text-align: center;
+}
+
+.topnav a {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 21px;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.topnav a:hover {
+    font-weight: 500;
+}
+
+.button-a {
+    float: right;
+    background-color: #ffd30f;
+    margin: 35px 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    padding: 8px 24px;
+}
+
+.button-a:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    background-color: #ffdf52;
+}
+
+/*RESPONSIVE*/
+
+@media only screen and (max-width:1030px) {
+    header {
+        min-height: 150px;
+    }
+    .column {
+        width: 30%;
+    }
+    #header-b {
+        width: 40%;
+    }
+    #mugshot {
+        margin-top: 25px;
+    }
+    .topnav {
+        margin: 0;
+        text-align: center;
+    }
+    .topnav a {
+        display: block;
+        width: 150px;
+        margin: auto;
+        padding: 10px;
+    }
+    .button-a {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    header {
+        min-height: 280px;
+    }
+    .column {
+        width: 100%;
+    }
+    #header-b {
+        width: 100%;
+    }
+    #mugshot {
+        margin-top: 20px;
+        margin: auto;
+    }
+    .topnav {
+        margin-top: 10px;
+    }
+    .topnav a {
+        font-size: 16px;
+        padding: 5px;
+    }
+    .button-a {
+        display: block;
+        margin: auto;
+        margin-top: 15px;
+        float: none;
+    }
+}
+
+/*HOME HERO*/
+
+/*DESKTOP*/
+
+.home-hero {
+    min-height: calc(100vh - 100px);
+    padding: 10px 40px;
+    background-image: linear-gradient(125deg, #660000, #660000, rgba(153, 26, 43, 0.81), #660000);
+}
+
+.intro {
+    text-align: center;
+    margin: 40px 20px;
+    font-size: 1.4em;
+    font-weight: 400;
+    color: #fff;
+}
+
+/*RESPONSIVE*/
+
+@media only screen and (max-width:1030px) {
+    .home-hero {
+        min-height: calc(100vh - 150px);
+    }
+    h1 {
+        margin-top: 200px;
+        font-size: 28px;
+    }
+    .intro {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .home-hero {
+        min-height: calc(100vh - 280px);
+    }
+    h1 {
+        margin-top: 100px;
+    }
+    .intro {
+        font-size: 1.1em;
+    }
+}
+
+
+
+/*MAIN*/
+
+/*THE MIND*/
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    max-width: 1200px;
+}
+
+#text {
+    z-index: 1;
+}
+
+#text p {
+    font-weight: 400;
+}
+
+.column-3 {
+    width: 33%;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/*RESPONSIVE*/
+
+@media only screen and (min-width: 1216px) {
+    #pic-1 {
+        margin-top: 33px;
+    }
+    #pic-2 {
+        margin-top: 33px;
+    }
+}
+
+@media only screen and (max-width: 1215px) {
+    .container {
+        flex-direction: column;
+    }
+    .column-3 {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+/*THE SOUL*/
+
+.container-b {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+blockquote {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 20px 40px 20px;
+}
+
+.quote-attr {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.column-2 {
+    width: 50%;
+}
+
+img#sitar-1 {
+    display: block;
+    margin-left: auto;
+}
+
+#sitar-3-conatiner {
+    margin-top: -10px;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-image: linear-gradient(125deg, #660000, #660000, rgba(153, 26, 43, 0.81), #660000);
+    margin-top: 100px;
+}
+
+form {
+    margin: 80px 20px;
+    padding-top: 80px;
+}
+
+.container-c {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 500px;
+}
+
+.container-d {
+    position: relative;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+label {
+    width: 100%;
+    color: #fff;
+}
+
+input {
+    width: 97%;
+}
+
+#fname-column {
+    padding-right: 15px;
+}
+
+#email, textarea {
+    width: 100%;
+    margin-top: -20px;
+}
+
+#submit {
+    width: 100%;
+    margin: 0;
+}
+
+.white {
+    color: white;
+}
